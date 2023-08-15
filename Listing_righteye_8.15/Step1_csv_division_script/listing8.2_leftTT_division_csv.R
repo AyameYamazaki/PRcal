@@ -56,8 +56,8 @@ plot_degZ_stop
 #detect when head rotation stops
 headdeg_stop <- headdeg %>% dplyr::filter(time >58 & time < 70) #change time if changing window does not work
 
-w=140 ### change window and threshold to detect the correct stop time (disk rotates at max 1.3deg/frame)
-threshold=1
+w=70 ### change window and threshold to detect the correct stop time (disk rotates at max 1.3deg/frame)
+threshold=1.3
 
 len=nrow(headdeg_stop)
 degz_stop <- headdeg_stop$degZ
