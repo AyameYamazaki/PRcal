@@ -13,7 +13,7 @@ library(openxlsx)
 library(ggthemes)
 
 #patient id - change accordingly!!!!!!!!!!!!!!!!!!!!!!!! *****************************************************!!!!!!!!!!!!!!!!
-id = "20230922AY_cal"
+id = "dateinitials_cal"
 
 
 #right side
