@@ -13,10 +13,10 @@ library(openxlsx)
 library(ggthemes)
 
 #date and patient initials change accordingly!!!!!!!!!!!!!!!!!!!!!!!! *****************************************************!!!!!!!!!!!!!!!!
-date = "20230511"
-initials = "AY"
-angle = "30"
-head = "HD"
+date = "typedate"
+initials = "typeinitials"
+angle = "typeangle"
+head = "typeposition"
 
 id = paste(date, initials, "_", angle, head, sep="")
 
